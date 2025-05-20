@@ -6,9 +6,9 @@ USE AbrigoAnimais;
 CREATE TABLE Animais (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100),
-    especie VARCHAR(50), -- ex: cão, gato
+    especie VARCHAR(50),
     raca VARCHAR(100),
-    idade INT, -- idade em anos
+    idade INT,
     data_entrada DATE
 );
 
